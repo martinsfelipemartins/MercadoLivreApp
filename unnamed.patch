@@ -1,0 +1,60 @@
+Index: Android/MercadoLivreApp/.idea/codeStyles/Project.xml
+===================================================================
+--- Android/MercadoLivreApp/.idea/codeStyles/Project.xml	(revision 5740b46f4f65474ee8b2201bcd4c19f856d6a3ba)
++++ Android/MercadoLivreApp/.idea/codeStyles/Project.xml	(revision 5740b46f4f65474ee8b2201bcd4c19f856d6a3ba)
+@@ -1,29 +0,0 @@
+-<component name="ProjectCodeStyleConfiguration">
+-  <code_scheme name="Project" version="173">
+-    <Objective-C-extensions>
+-      <file>
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Import" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Macro" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Typedef" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Enum" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Constant" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Global" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Struct" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="FunctionPredecl" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Function" />
+-      </file>
+-      <class>
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Property" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Synthesize" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InitMethod" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="StaticMethod" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InstanceMethod" />
+-        <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="DeallocMethod" />
+-      </class>
+-      <extensions>
+-        <pair source="cpp" header="h" fileNamingConvention="NONE" />
+-        <pair source="c" header="h" fileNamingConvention="NONE" />
+-      </extensions>
+-    </Objective-C-extensions>
+-  </code_scheme>
+-</component>
+\ No newline at end of file
+Index: Android/MercadoLivreApp/.idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Android/MercadoLivreApp/.idea/gradle.xml	(revision 5740b46f4f65474ee8b2201bcd4c19f856d6a3ba)
++++ Android/MercadoLivreApp/.idea/gradle.xml	(date 1565630782676)
+@@ -3,11 +3,14 @@
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+-        <compositeConfiguration>
+-          <compositeBuild compositeDefinitionSource="SCRIPT" />
+-        </compositeConfiguration>
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$" />
++            <option value="$PROJECT_DIR$/app" />
++          </set>
++        </option>
+         <option name="resolveModulePerSourceSet" value="false" />
+       </GradleProjectSettings>
+     </option>
